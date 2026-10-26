@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Brickory favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/brickory-mark.svg"
+    />
+
+    <!-- Intro Logo Preload -->
+    <link
+      rel="preload"
+      as="image"
+      href="/brickory-logo.svg"
+      fetchpriority="high"
+    />
+
+    <!-- iPhone / iPad Home Screen Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png"
+    />
+
+    <!-- iPhone / iPad Safari Safe Area -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="default"
+    />
+
+    <!-- Website title -->
+    <title>Brickory — Where Bricks Become Models</title>
+
+    <!-- SEO Description -->
+    <meta
+      name="description"
+      content="Brickory curates building sets from established and independent brands across Asia for builders and collectors worldwide."
+    />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="author" content="Brickory" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="canonical" href="https://brickory.com/" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Where Bricks Become Models"
+    />
+
+    <meta
+      property="og:description"
+      content="Curated building sets from brands across Asia, with a smooth shopping experience for builders and collectors."
+    />
+
+    <meta
+      property="og:type"
+      content="website"
+    />
+
+    <meta
+      property="og:site_name"
+      content="Brickory"
+    />
+
+    <meta
+      property="og:url"
+      content="https://brickory.com"
+    />
+
+    <meta
+      property="og:image"
+      content="https://brickory.com/brickory-mark.svg"
+    />
+
+    <!-- Twitter -->
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+
+    <meta
+      name="twitter:url"
+      content="https://brickory.com/"
+    />
+
+    <meta
+      name="twitter:title"
+      content="Where Bricks Become Models"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Discover building sets, collector models, and display-worthy builds at Brickory."
+    />
+
+    <meta
+      name="twitter:image"
+      content="https://brickory.com/brickory-mark.svg"
+    />
+
+    <!-- Structured data for the Brickory homepage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://brickory.com/#organization",
+            "name": "Brickory",
+            "url": "https://brickory.com/",
+            "logo": "https://brickory.com/brickory-mark.svg"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://brickory.com/#website",
+            "name": "Brickory",
+            "url": "https://brickory.com/",
+            "publisher": {
+              "@id": "https://brickory.com/#organization"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Fonts -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+
+  <body class="antialiased">
+
+    <!-- Meta Pixel fallback for users without JavaScript -->
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=1133928425646890&ev=PageView&noscript=1"
+      />
+    </noscript>
+
+    <div id="root"></div>
+
+    <script
+      type="module"
+      src="/src/main.tsx"
+    ></script>
+
+  </body>
+</html>
