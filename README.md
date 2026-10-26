@@ -1,1 +1,0 @@
-# brickory_test
