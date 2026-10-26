@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 160" role="img" aria-labelledby="title desc">
+<title>Brickory</title><desc>Brickory wordmark</desc>
+<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+<path stroke-width="7" d="M30 82h72l12-14H42z"/>
+<path stroke-width="7" d="M30 82v34l72 12 12-14V68"/>
+<path stroke-width="7" d="M102 82v34"/>
+<path stroke-width="7" d="M42 116l60 12"/>
+<path stroke-width="7" d="M56 89v22M78 93v22"/>
+</g>
+<text x="136" y="108" fill="currentColor" font-family="Inter,Arial,sans-serif" font-size="84" font-weight="800" letter-spacing="-3">BRICKORY</text>
+</svg>
